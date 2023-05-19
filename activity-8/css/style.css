@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: D#555;
+    margin: 0;
+}
+    header {
+    display: flex;
+    padding: 5px;
+    color: #efefef;
+    background-color: #2D2D2D;
+    border-bottom: solid 1px D#000;
+    }
+    header header-title {
+    display: inline-block;
+    }
+
+    header .header-menu {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+color: 0#777;
+font-size: smaller;
+}
+
+main {
+flex: 1;
+}
+
+main #display-content {
+padding: 20px;
+}
